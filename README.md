@@ -1,6 +1,6 @@
 # Web City Theaters
 
-Web City Theaters is a movie app written in HTML, CSS, Javascript, jQuery and Bootstrap. API calls were used to fetch data from the movie database. Users can view the top trending movies, sort them by genre or search for other movies using the search function.
+Web City Theaters is a movie app written in HTML, CSS, Javascript, jQuery and Bootstrap. API calls were used to fetch data from the movie database. Users can view the top trending movies, sort them by genre or search for other movies using the search function. By clicking on the movies users can view the trailer, showtimes, overviews, release dates and ratings.
 
 # Screenshots
 
