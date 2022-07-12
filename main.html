@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC" rel="stylesheet">
+    
+    <title>Movie App</title>
+    
+</head>
+<body>
+	<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Web City Theaters</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Genres<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#" class="action" id="action">Action</a></li>
+            <li><a href="#" class="adventure" id="adventure">Adventure</a></li>
+            <li><a href="#" class="animation" id="animation">Animation</a></li>
+            <li><a href="#" class="comedy" id="comedy">Comedy</a></li>
+            <li><a href="#" class="crime" id="crime">Crime</a></li>
+            <li><a href="#" class="drama" id="drama">Drama</a></li>
+            <li><a href="#" class="family" id="family">Family</a></li>
+            <li><a href="#" class="fantasy" id="fantasy">Fantasy</a></li>
+            <li><a href="#" class="history" id="history">History</a></li>
+            <li><a href="#" class="music" id="music">Music</a></li>
+            <li><a href="#" class="romance" id="romance">Romance</a></li>
+            <li><a href="#" class="scifi" id="scifi">Science Fiction</a></li>
+            <li><a href="#" class="thriller" id="thriller">Thriller</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <form class="navbar-form navbar-right searchForm">
+	        <div class="form-group">
+	          <input type="text" class="form-control" placeholder="Search movies">
+	        </div>
+	        <button type="submit" class="btn-default">Search</button>
+	    </form>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+	<div class="container">
+		<div class="row">
+      <div class="genreLabel"><h1 id="movieGenreLabel"></h1></div>
+        <!-- I need the h1 to change accordingly depending on what was clicked. -->
+			<div id="movieGrid">
+				 <!-- Jquery get us the movie posters! Need a place to put the poster images -->
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
